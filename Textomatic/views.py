@@ -38,7 +38,7 @@ def analysed(request):
         c=1
         flag=0
         analysed_res = text_input[0].upper()+""
-        for i in range(1, len(text_input)):
+        for i in range(1, len(text_input)-1):
             if (flag == 1):
                 flag = 0
                 continue
