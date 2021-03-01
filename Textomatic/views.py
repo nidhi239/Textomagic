@@ -52,7 +52,7 @@ def analysed(request):
     if extraSpaceRemove=='on' :
             li_purpose.append("Extra space Remover")
             analysed_res=""
-            for i in range(0,len(text_input)):
+            for i in range(0,len(text_input)-1):
                 if(text_input[i] == " " and text_input[i+1] == " "):
                     pass;
                 else:
